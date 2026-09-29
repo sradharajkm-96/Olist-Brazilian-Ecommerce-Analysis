@@ -6,7 +6,7 @@ This project analyses the Brazilian E-Commerce Public Dataset provided by Olist.
 
 The dataset contains information about orders, customers, products, sellers, payments, reviews and geolocation.
 
-The project focuses on data cleaning, preprocessing, data integration and exploratory data analysis using Python.
+The project focuses on data cleaning, preprocessing, data integration and feature engineering using Python.
 
 ## Problem Statement
 
