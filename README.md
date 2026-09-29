@@ -54,6 +54,12 @@ The dataset contains information from the following tables:
 
 ### Data Integration
 The related datasets were integrated using LEFT JOIN operations.
+The main tables were merged using common keys such as:
+
+- order_id
+- customer_id
+- product_id
+- seller_id
 
 Main relationships include:
 
@@ -65,6 +71,8 @@ Main relationships include:
 - Orders + Payment Summary
 - Orders + Review Summary
 - Customer/Seller location + Geolocation
+
+The final master dataset was prepared for further analysis.
 
 ### Feature Engineering
 
