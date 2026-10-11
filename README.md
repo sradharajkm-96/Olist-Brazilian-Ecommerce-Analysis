@@ -84,11 +84,26 @@ Derived features were created for:
 - Delivery Duration
 - Delivery Delay
 
+  ## Project Work Completed
+
+- Data cleaning and preprocessing
+- Merging related datasets using joins
+- Handling missing values and duplicate records
+- Outlier detection and handling in the merged dataset
+- Feature engineering and derived columns
+- Exploratory Data Analysis (EDA)
+- Data visualization using Matplotlib and Seaborn
+- Analysis of product categories, revenue, payments, reviews, and delivery performance
+
 ## Current Status
 
-Data loading, cleaning, preprocessing, table integration and feature engineering have been completed.
+Data cleaning, feature engineering, EDA, and visualizations have been completed using Python in Jupyter Notebook.
 
-Exploratory Data Analysis and visualizations will be added in the next stage.
+## Future Work
+
+- Present key business insights and recommendations
+
+
 
 ## Author
 
