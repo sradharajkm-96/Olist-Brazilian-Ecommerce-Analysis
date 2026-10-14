@@ -1,10 +1,16 @@
 # Raw Dataset
 
-This folder contains the original CSV files used for the
+This folder contains the original CSV files used in the
 Olist Brazilian E-Commerce Data Analysis project.
 
-The files contain information about orders, customers,
-products, sellers, payments, reviews, and geolocation.
+The original dataset contains information about orders,
+customers, products, sellers, payments, reviews, and locations.
+
+The geolocation dataset is not included here because of its file size.
+It can be downloaded from the original dataset source.
 
 Dataset source:
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+Download the original dataset from Kaggle and extract the CSV files
+before running the Jupyter Notebook.
