@@ -1,110 +1,135 @@
-# Brazilian E-Commerce Sales and Customer Analysis
+# 🛒 Olist Brazilian E-Commerce Data Analysis
 
-## Project Overview
+### Sales Performance | Customer Behaviour | Product Analysis | Delivery Insights
 
-This project analyses the Brazilian E-Commerce Public Dataset provided by Olist.
+## 📌 Project Overview
 
-The dataset contains information about orders, customers, products, sellers, payments, reviews and geolocation.
+This project analyses the Brazilian E-Commerce Public Dataset by Olist
+to understand e-commerce sales performance, product category trends,
+payment patterns, customer reviews, and delivery performance.
 
-The project focuses on data cleaning, preprocessing, data integration and feature engineering using Python.
+The project follows a data analytics workflow using Python, Pandas,
+NumPy, Matplotlib, and Seaborn.
 
-## Problem Statement
+The analysis includes data cleaning, table integration using joins,
+feature engineering, exploratory data analysis (EDA), and visualisation.
 
-The Olist dataset is distributed across multiple related tables. The objective of this project is to clean and integrate the datasets using appropriate join operations and prepare the data for further analysis.
+## 🎯 Project Objectives
 
-## Dataset Source
+- Clean and prepare the original datasets.
+- Integrate related tables using appropriate joins.
+- Handle missing values and duplicate records.
+- Identify and treat outliers where appropriate.
+- Create meaningful derived features.
+- Analyse product category performance.
+- Explore payment value distributions.
+- Examine customer review scores.
+- Analyse delivery duration and delivery delays.
+- Present findings using clear visualisations.
 
-Brazilian E-Commerce Public Dataset by Olist
+## 📂 Dataset Description
 
+Dataset: Brazilian E-Commerce Public Dataset by Olist
+
+Source:
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
-## Tools and Technologies
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
-
-## Dataset Tables
-
-The dataset contains information from the following tables:
+The dataset includes information about:
 
 - Orders
 - Customers
-- Order Items
+- Order items
 - Products
 - Sellers
 - Payments
 - Reviews
-- Product Category Translation
 - Geolocation
+- Product category translations
 
-## Project Work Completed
+## 🛠 Tools and Technologies
 
-### Data Loading
-- Loaded the Olist datasets using Pandas.
-- Inspected the structure and dimensions of the datasets.
+| Tool | Purpose |
+|---|---|
+| Python | Data analysis |
+| Pandas | Data cleaning and transformation |
+| NumPy | Numerical operations |
+| Matplotlib | Data visualisation |
+| Seaborn | Statistical visualisation |
+| Jupyter Notebook | Analysis and documentation |
+| GitHub | Project version control and sharing |
 
-### Data Cleaning
-- Checked missing values.
-- Checked duplicate records.
-- Converted date columns into appropriate datetime format.
+## 🔄 Project Workflow
 
-### Data Integration
-The related datasets were integrated using LEFT JOIN operations.
-The main tables were merged using common keys such as:
+1. Data loading and initial inspection
+2. Data cleaning and preprocessing
+3. Data integration using joins
+4. Missing-value and duplicate checks
+5. Outlier detection and handling
+6. Feature engineering
+7. Exploratory Data Analysis
+8. Data visualisation
+9. Interpretation of findings
+10. Documentation and reporting
 
-- order_id
-- customer_id
-- product_id
-- seller_id
+## 🧹 Data Cleaning
 
-Main relationships include:
+The data preparation process includes:
 
-- Orders + Customers
-- Orders + Order Items
-- Order Items + Products
-- Order Items + Sellers
-- Products + Category Translation
-- Orders + Payment Summary
-- Orders + Review Summary
-- Customer/Seller location + Geolocation
+- Inspecting dataset dimensions and data types.
+- Checking missing values.
+- Checking duplicate records.
+- Converting date columns to appropriate formats.
+- Merging related tables using common identifiers.
+- Checking the quality of the merged dataset.
+- Investigating outliers and documenting their treatment.
 
-The final master dataset was prepared for further analysis.
+## ⚙️ Feature Engineering
 
-### Feature Engineering
-
-Derived features were created for:
+Derived features used in the analysis include:
 
 - Item Revenue
 - Purchase Year
 - Purchase Month
+- Purchase Month-Year
 - Delivery Duration
 - Delivery Delay
 
-  ## Project Work Completed
+These features support the analysis of sales trends,
+product performance, and delivery efficiency.
 
-- Data cleaning and preprocessing
-- Merging related datasets using joins
-- Handling missing values and duplicate records
-- Outlier detection and handling in the merged dataset
-- Feature engineering and derived columns
-- Exploratory Data Analysis (EDA)
-- Data visualization using Matplotlib and Seaborn
-- Analysis of product categories, revenue, payments, reviews, and delivery performance
+## 📊 Exploratory Data Analysis
 
-## Current Status
+The EDA examines:
 
-Data cleaning, feature engineering, EDA, and visualizations have been completed using Python in Jupyter Notebook.
+- Product category order counts
+- Revenue by product category
+- Payment value distribution
+- Delivery duration and delivery delay
+- Average review scores by product category
+- Average product prices by category
 
-## Future Work
+## 💡 Key Findings
 
-- Present key business insights and recommendations
+- Bed, Bath & Table is a leading category by order count
+  among the categories analysed.
+- Revenue comparisons help identify important product categories.
+- Payment values are right-skewed, with many observations
+  concentrated at lower values.
+- Delivery delay analysis helps compare actual delivery dates
+  with estimated delivery dates.
+- Review-score comparisons reveal differences across categories.
 
+These findings should be interpreted alongside the charts
+and numerical results in the Jupyter Notebook.
 
+## 📁 Project Structure
 
-## Author
-
-Sradha Raj
+```text
+Olist-Brazilian-Ecommerce-Analysis/
+├── README.md
+├── data/
+│   ├── raw/
+│   └── cleaned/
+├── notebooks/
+│   └── olist_brazilian_e_commerce_data_analysis.ipynb
+└── visualizations/
